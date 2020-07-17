@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+        <title>学生信息管理系统</title>
+    </head>
+    <hr/>
+    <body style="align-items: center;">
+        <div>
+            <h2 style="text-align: center;color:aquamarine;">
+                学生信息管理系统</h2>
+        </div>
+        <hr/>
+        <p></p>
+        <div class="option" style="display:flex;width: auto;align-items: center;justify-content: center;">
+            <ul style="text-align:center;width: 150px">
+                <li style="width: 150px;padding-left: 0;padding-right: 0;">
+                    <a href="http://192.168.0.103:8080/manager?opt=init" style="text-decoration: none;">
+                    初始化信息表</a></li><p></p>
+                <li style="width: 150px;padding-left: 0;padding-right: 0;">
+                    <a href="http://192.168.0.103:8080/manager?opt=select" style="text-decoration: none;">
+                    查看学生记录</a></li><p></p>
+                <li style="width: 150px;padding-left: 0;padding-right: 0;">
+                    <a href="http://192.168.0.103:8080/manager?opt=insert" style="text-decoration: none;">
+                    新增学生记录</a></li><p></p>
+                <li style="width: 150px;padding-left: 0;padding-right: 0;">
+                    <a href="http://192.168.0.103:8080/manager?opt=delete" style="text-decoration: none;">
+                    删除学生记录</a></li><p></p>
+                <li style="width: 150px;padding-left: 0;padding-right: 0;">
+                    <a href="http://192.168.0.103:8080/manager?opt=close" style="text-decoration: none;">
+                    退出管理系统</a></li>
+            </ul>
+        </div>
+        <hr/>
+        <h4 style="padding: 0;margin: 1px;">信息输出交互窗口：</h4>
+        <hr/>
+        <form action="manager">No:<input name="No" style="width: 80px;">Name:<input name="Name" style="width: 80px;">Sex:<input name="Sex" style="width: 80px;">Age:<input name="Age" style="width: 80px;"> <input type="submit"/></form>
+        <hr/>
+        <div class="operation" style="display:flex;width: auto;align-items: center;justify-content: center;">
+            <!--operation-->
+        </div>
+    </body>
+</html>
